@@ -1,0 +1,21 @@
+1. Spring any change in the pom.xml need to restart the server.
+2. Spring boot provide production ready app by using the profiles. like dev, QA, stage, production
+   can create separate profile and config for separate env
+
+   dev
+   -----
+   logging.level.org.springframework=trace
+   prod
+   -----
+   logging.level.org.springframework=info
+3. By default in spring profile is not set so its use the application.properties configuration
+   so we need to set the profile in app.properties file.
+
+   trace - everything will be printed all the below level
+   debug
+   info
+   warning
+   error
+   off
+
+   C:\Users\TECHNOSOFT17\Desktop\Java Projects\learningspringboot\target\learningspringboot-0.0.1-SNAPSHOT.jar
